@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Melwy - blog`,
     name: `Melwy`,
-    siteUrl: `https://melwy.com/blog`,
+    siteUrl: `https://xenodochial-brown-53eb27.netlify.com/`,
     description: `Blog - AI & data science for precision medicine and drug discovery`,
     hero: {
       heading: `Blog - AI & data science for precision medicine and drug discovery`,
@@ -37,7 +37,7 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-       // basePath: "blog",
+        basePath: "/",
         sources: {
           local: true,
           contentful: false
